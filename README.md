@@ -1,1 +1,3 @@
 # scrimba_website
+to fix merging issues...
+https://komodor.com/learn/how-to-fix-fatal-refusing-to-merge-unrelated-histories-error/
