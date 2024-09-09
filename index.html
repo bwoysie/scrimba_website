@@ -1,22 +1,72 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+        <title>Web Site</title>
         <script src="index.js"></script>
     </head>
     <body>
-      <img src="patrick.jpg" alt="profile pic">
-      <h1>Hi, my name is Patrick</h1>
-      <h2>Fun facts about me :</h2>
-      <ul>
-        <li>65 years old</li>
-        <li>Live in florida</li>
-        <li> learning to code</li>
-      </ul>
-      <p>Please connect with me on <a href="https://www.linkedin.com"target="_blank">linkedIn here</a></p>
-      <input type="text" placeholder="Enter email..." >
-      <button>Join newsletter</button>
-      
-    </body>
+      <div class="container">
+        <div class="navbar">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+       
+        </div>
+
+        <br>
+        <br>
+        <br>
+      <div class="top">
+        <img src="icononly_transparent.png" class="logo" alt="">
+        <img src="patrick.jpg" alt="profile pic">
+          <img src="icononly_transparent.png" class="rightlogo" alt="">
+        <h1>Hi, my name is Patrick</h1>
+        <h2>Fun facts about me :</h2>
+        <ul class="ul">
+          <li>65 years old</li>
+          <li>Live in florida</li>
+          <li> learning to code</li>
+        </ul>
+      </div>
+      <div class="middle">
+        <p>Please connect with me on <a href="https://www.linkedin.com"target="_blank">linkedIn here</a></p>
+      </div>
+      <div>
+          <input type="text" placeholder="Enter email..." >
+          <button>Join newsletter</button>
+          <time datetime="2024-09-06">September 9,2024</time>
+      </div>
+        <footer class="bg-dark text-white pt-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>Information about the company.</p>
+              </div>
+              <div class="col-md-4">
+                <h5>Contact</h5>
+                <ul class="list-unstyled">
+                  <li>Email: info@example.com</li>
+                  <li>Phone: +123 456 7890</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Facebook</a></li>
+                  <li><a href="#" class="text-white">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>    
+    
+    </div>
+  </body>
+    
 </html>
+
+
